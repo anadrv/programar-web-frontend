@@ -1,18 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dinossauros Aquáticos</title>
-    <link rel="shortcut icon" href="/atividade05/favicon-16x16.png" type="image/x-icon">
-</head>
-<body>
-    <h1>Dinossauros Aquáticos</h1>
+    <link
+      rel="shortcut icon"
+      href="/atividade05/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-    <h2>Ranking dos favoritos</h2>
-    <ol>
-        <li></li>
-    </ol>
+      body {
+        font-family:'Times New Roman', Times, serif;
+        margin: 0;
+        color: #121212;
+      }
 
-</body>
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .cover,
+      .ranking {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .title {
+        flex: 1;
+        margin: 0;
+        text-align: right;
+        font-size: 2rem;
+      }
+
+      .cover-image,
+      .image-ranking {
+        flex: 1;
+        height: 300px;
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: #00000036 5px 5px 5px;
+      }
+
+      .ranking ol {
+        padding-left: 20px;
+        margin: 0;
+      }
+
+      .ranking h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+      }
+      .ranking li {
+        font-size: 1.2rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      table th,
+      table td {
+        padding: 5px;
+        border: 1px solid #ccc;
+        text-align: center;
+
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      
+      footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9rem;
+        color: #121212;
+      }
+
+      a {
+        color: #024C60;
+        text-decoration: none;
+      }	
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="cover">
+        <h1 class="title">
+          Meus<br />dinossauros <br />aquáticos<br />favoritos
+        </h1>
+        <img src="/atividade05/images/capa.jpg" alt="dinossauro aquático" class="cover-image" />
+      </div>
+
+      <div class="ranking">
+        <img src="/atividade05/images/ranking-ok.png" alt="ilustracao de dois dinossauros aquáticos e um mergulhador" class="image-ranking"/>
+        <div>
+          <h2>Ranking dos favoritos</h2>
+          <ol>
+            <li>Plesiosaurus</li>
+            <li>Mosasauridae</li>
+            <li>Titanoboa</li>
+            <li>Rutiodonte</li>
+            <li>Ictiossauro</li>
+          </ol>
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <th>IMAGEM</th>
+          <th>NOME</th>
+          <th>PERÍODO</th>
+        </tr>
+        <tr>
+          <td><img src="/atividade05/images/Plesiosaurus.jpg" alt="Imagem de um Plesiosaurus" width="200" /></td>
+          <td>Plesiosaurus</td>
+          <td>Jurássico Inferior (cerca de 200-180 milhões de anos atrás)</td>
+        </tr>
+        <tr>
+          <td><img src="/atividade05/images/Mosasauridae.png" alt="Imagem de um Mosasauridae" width="200" /></td>
+          <td>Mosasauridae</td>
+          <td>Cretáceo Superior (cerca de 98-66 milhões de anos atrás)</td>
+        </tr>
+        <tr>
+          <td><img src="/atividade05/images/Titanoboa.png" alt="Imagem de um Titanoboa" width="200" /></td>
+          <td>Titanoboa</td>
+          <td>Paleoceno (cerca de 60 milhões de anos atrás)</td>
+        </tr>
+        <tr>
+          <td><img src="/atividade05/images/Rutiodonte.png" alt="Imagem de um Rutiodonte" width="200" /></td>
+          <td>Rutiodonte</td>
+          <td>Triássico (cerca de 237-201 milhões de anos atrás)</td>
+        </tr>
+        <tr>
+          <td><img src="/atividade05/images/Ictiossauro.png" alt="Imagem de um Ictiossauro" width="200" /></td>
+          <td>Ictiossauro</td>
+          <td>Triássico ao Cretáceo (cerca de 250-90 milhões de anos atrás)</td>
+        </tr>
+      </table>
+    </main>
+
+    <footer>
+      <p>Fontes: <a href="https://www.peritoanimal.com.br/tipos-de-dinossauros-marinhos-nomes-e-fotos-23237.html#anchor_3" target="_blank">Perito Animal</a> e <a href="https://mundopre-historico.blogspot.com/" target="_blank">Mundo Pré-Histórico</a></p>
+      <p>Desenvolvido por Ana - Atividade 05</p>
+      <p>obs: eles não são realmente dinossauros, apenas conhecidos como um</p>
+    </footer>
+  </body>
 </html>
