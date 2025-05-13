@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 20px;
+}
+
+#container {
+  flex: 1; 
+}
+
+#items {
+  text-align: center;
+  max-height: 80vh;
+  width: 100%;
+}
+
+.cabelo-vermelho {
+  color: red;
+}
+
+.cabelo-amarelo {
+  color: rgb(235, 161, 49);
+}
+
+.cabelo-branco {
+  color: rgb(32, 32, 32);
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-weight: 100;
+  color: gray;
+}
