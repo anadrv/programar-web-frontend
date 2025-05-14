@@ -4,19 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechConnect 2025 – Inovação para o Futuro</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      header, main, footer {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+
+      form {
+        margin-top: 5px;
+        text-align: left;
+      }
+
+      .dados {
+        margin-top: 30px;
+        text-align: left;
+      }
+
+      input {
+        margin: 0.2%;
+        
+      }
+
+      button {
+        margin-top: 5px;
+      }
+
+      table {
+        margin: 0 auto;
+        text-align: left;
+      }
+
+      hr {
+        margin: 40px auto;
+        width: 80%;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      #programacao ul {
+        text-align: left;
+        display: inline-block;
+      }
+    </style>
   </head>
+
   <body>
     <header>
       <h1>TechConnect 2025</h1>
       <p><strong>Conectando ideias, criando o futuro</strong></p>
       <nav>
-        <nav>
-          <a href="#sobre">Sobre o evento</a> |
-          <a href="#programacao">Programação</a> |
-          <a href="#palestrantes">Palestrantes</a> |
-          <a href="#inscricoes">Inscrições</a> |
-          <a href="#contatos">Contato</a>
-        </nav>
+        <a href="#sobre">Sobre o evento</a> |
+        <a href="#programacao">Programação</a> |
+        <a href="#palestrantes">Palestrantes</a> |
+        <a href="#inscricoes">Inscrições</a> |
+        <a href="#contatos">Contato</a>
       </nav>
     </header>
 
@@ -25,11 +86,11 @@
         <h2>Sobre o evento</h2>
         <figure>
           <img
-            src="foto projeto.jpg"
-            alt="Três mulheres palestrando em um evento de tecnologia"
+            src="palestras.jpg"
+            alt="Uma palestra em um evento de tecnologia"
             width="300"
           />
-          <figcaption>Mulheres em destaque no TechConnect 2025</figcaption>
+          <figcaption>Evento em destaque no TechConnect 2025</figcaption>
         </figure>
         <p>
           O <strong>TechConnect 2025</strong> é um evento que tem como principal
@@ -37,26 +98,23 @@
           entre profissionais, estudantes e entusiastas da área de tecnologia. A
           iniciativa busca conectar ideias, compartilhar experiências e fomentar
           a criação de soluções inovadoras que impactem positivamente o futuro.
-          Por meio de palestras, workshops e espaços colaborativos, o evento
-          oferece um ambiente inspirador para aprendizado, troca de conhecimento
-          e construção de parcerias estratégicas.
         </p>
       </section>
+      <hr>
 
       <section id="programacao">
         <h2>Programação</h2>
         <ul>
           <li><strong>08h00</strong> - Abertura</li>
           <li><strong>09h00</strong> - Palestra: "IA na Educação"</li>
-          <li>
-            <strong>11h00</strong> - Painel: "Startups e Tecnologia Sustentável"
-          </li>
-          <li>
-            <strong>14h00</strong> - Workshop: "Introdução ao Desenvolvimento
-            Web"
-          </li>
+          <li><strong>11h00</strong> - Painel: "Startups e Tecnologia Sustentável"</li>
+          <li><strong>14h00</strong> - Workshop: "Introdução ao Desenvolvimento Web"</li>
+          <li><strong>15h00</strong> - Palestra: "Cidades Inteligentes e Sustentabilidade"</li>
+          <li><strong>16h00</strong> - Palestra: "A Revolução do 5G no Mercado de Trabalho"</li>
+          <li><strong>17h00</strong> - Encerramento</li>
         </ul>
       </section>
+      <hr>
 
       <section id="palestrantes">
         <h2>Palestrantes</h2>
@@ -75,9 +133,7 @@
               <td>Alana Costa</td>
               <td>Inteligência Artificial na Educação</td>
               <td>
-                Engenheira de software e pesquisadora em IA. Atua com
-                tecnologias educacionais e é autora de artigos sobre aprendizado
-                adaptativo.
+                Engenheira de software e pesquisadora em IA. Atua com tecnologias educacionais e é autora de artigos sobre aprendizado adaptativo.
               </td>
               <td><a href="#">Inscreva-se</a></td>
               <td>alanacosta@gmail.com</td>
@@ -86,8 +142,7 @@
               <td>Carla Menezes</td>
               <td>Cidades Inteligentes e Sustentabilidade</td>
               <td>
-                Arquiteta de soluções e especialista em smart cities. Lidera
-                projetos de inovação urbana voltados à sustentabilidade.
+                Arquiteta de soluções e especialista em smart cities. Lidera projetos de inovação urbana voltados à sustentabilidade.
               </td>
               <td><a href="#">Inscreva-se</a></td>
               <td>carlamenezes@gmail.com</td>
@@ -96,8 +151,7 @@
               <td>Samara Tavares</td>
               <td>A Revolução do 5G no Mercado de Trabalho</td>
               <td>
-                Consultora em telecomunicações. Explora os impactos do 5G em
-                carreiras, automação e conectividade.
+                Consultora em telecomunicações. Explora os impactos do 5G em carreiras, automação e conectividade.
               </td>
               <td><a href="#">Inscreva-se</a></td>
               <td>samaratavares@gmail.com</td>
@@ -105,23 +159,55 @@
           </tbody>
         </table>
       </section>
-    </main>
+      <hr>
 
-    <footer id="contato">
+      <section>
+        <h2>Apresentação especial</h2>
+        <h4>Convidados: Xdinary Heroes</h4>
+        <figure>
+          <img
+            src="xdinary heroes.webp"
+            alt="Grupo de K-Rock que irá se apresentar no encerramento"
+            width="250"
+          />
+          <figcaption>Convidados especiais: Xdinary Heroes</figcaption>
+        </figure>
+      </section>
+      <hr>
+
+      <section id="inscricoes">
+        <h2>Inscrições</h2>
+        <p>
+          As inscrições para o <strong>TechConnect 2025</strong> estão abertas!
+          Garanta seu lugar e faça parte desse evento. 
+        </p>
+        <p class="dados">Preencha o formulário abaixo para se inscrever.</p>
+        <form action="#" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required /><br>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required /><br>
+          <label for="text">CPF:</label>
+          <input type="text" id="cpf" name="cpf" required /><br>
+
+          <button type="submit">Confirmar inscrição</button>
+        </form>
+      </section>
+    </main>
+    <hr>
+
+    <footer id="contatos">
       <section>
         <p>
           Agradecemos a todos que fizeram parte do
-          <strong>TechConnect 2025</strong> – Inovação para o Futuro. Foi uma
+          <strong>TechConnect 2025</strong> - Inovação para o Futuro. É uma
           honra contar com a presença de palestrantes incríveis, participantes
-          engajados e uma troca de conhecimento inspiradora. Cada momento foi
-          essencial para construir um futuro mais conectado e inovador!
+          engajados e uma troca de conhecimento inspiradora.
         </p>
         <p>
-          Com gratidão,<br />
-          Lavinia Ribeiro, Carolina Genovez, Ana Luisa Rodrigues, Julia Fialho e
-          Sabrina Vitória
+          © 2025 - Com gratidão, Lavinia Ribeiro, Carolina Genovez, Ana Luisa
+          Rodrigues, Julia Fialho e Sabrina Vitória
         </p>
-        <p>© 2025</p>
       </section>
     </footer>
   </body>
