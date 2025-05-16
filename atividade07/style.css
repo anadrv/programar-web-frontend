@@ -1,48 +1,103 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  background: url(/atividade07/images/sea.jpg) no-repeat center top;
+
 }
 
 body {
-    max-width: 60%;
-    margin: auto;
-    text-align: center;
-    font-size: 1.1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
 }
 
 h1 {
-    font-size: 4rem;
-    color: cornflowerblue;
+  font-size: 4rem;
+  color: #2a7986;
 }
 
 .frase {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 .img {
-    border-radius: 10px;
-    margin-left: 20px;
-    width: 50%;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 50%;
 }
 
 .frase-img {
-    display: flex;
-    align-items: flex-end;
-    margin: 20px;
-    text-align: justify;
+  display: flex;
+  align-items: flex-end;
+  margin: 20px;
+  text-align: justify;
 }
 
 .text {
-    font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.text::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 ul {
-    text-align: left;
-    display: inline-block;
-    margin: 10px;
+  text-align: left;
+  display: inline-block;
+  margin: 10px;
 }
 
-.list-relax {
-    margin-top: 45px;
+ol {
+  text-align: left;
+  display: inline-block;
+  margin: 10px;
+}
+
+#list-relax {
+  margin-top: 45px;
+  text-transform: lowercase;
+}
+
+.table-title {
+    margin: 20px 0px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 2px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  color: #2a7986;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
