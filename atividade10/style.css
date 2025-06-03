@@ -1,60 +1,119 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
 }
 
 .container {
-    width: 90vw;
-    height: 80vh;
-    background-color: #1B1716;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%;
+  width: 90vw;
+  height: 80vh;
+  background-color: #1B1716;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
 }
 
 .items {
-    width: 50%;
-    height: 50vh;
-    background-color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #EDEBDE;
-
+  width: 50%;
+  height: 50vh;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EDEBDE;
+  text-align: center;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .title {
-    background-color: #630100;
-    font-size: 5rem;
-
-
+  background-color: #630100;
+  font-size: 5rem;
 }
 
 .about {
-    background-color: #810100;
-    font-size: 2.5rem;
-    text-align:center;
-
+  background-color: #810100;
+  font-size: 2rem;
+  padding: 10px;
 }
 
 .more {
-    background-color: #EDEBDE;
-
+  background-color: #EDEBDE;
 }
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+          width: 150vw;
+    }
+
+  .img-choso {
+
+    height: 50%;
+  }
+
+  .items {
+    width: 40%;
+    height: 50%;
+
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .about {
+    font-size: 1.2rem;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
+        flex-direction: column;
+           width: 150vw;
+    }
+
+  .img-choso {
+
+    height: 50%;
+  }
+
+  .items {
+    width: 40%;
+    height: 50%;
+
+  }
+
+  .title {
+    font-size: 3rem;
+    padding: 30px 0;
+  }
+
+  .about {
+    font-size: 1.5rem;
+    padding: 40px 20px;
+  }
+}
+
+
+
